@@ -1,0 +1,24 @@
+# xrp-ledger.toml
+# Replace example.com below with your exact domain/subdomain.
+# The XRPL account Domain field must match this hostname exactly when ASCII-decoded.
+# Host this file at:
+# https://example.com/.well-known/xrp-ledger.toml
+
+[[ACCOUNTS]]
+address = "rBUFzuwPwaqaQwQG99DuZ2yamQp8cUwP7T"
+desc = "CCG XAU cold / issuer wallet"
+
+[[ACCOUNTS]]
+address = "rspbKJNndJaG4KTLcFq3ZPNUZkGWEWALHZ"
+desc = "CCG XAU hot / distribution wallet"
+
+[[ACCOUNTS]]
+address = "rw18modmEBCZCenLHYD2aLQ8vdGM6GpjA2"
+desc = "CCG XAU user / test wallet"
+
+[[CURRENCIES]]
+code = "XAU"
+issuer = "rBUFzuwPwaqaQwQG99DuZ2yamQp8cUwP7T"
+display_decimals = 5
+name = "CCG Gold"
+desc = "Gold-backed token issued by CCG on XRPL for test/integration use."
